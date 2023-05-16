@@ -1,0 +1,44 @@
+{
+  "name": "pbkdf2-passworder",
+  "version": "1.0.0",
+  "description": "Password hashing and verification with PBKDF2.",
+  "main": "./dist/pbkdf2-passworder.cjs",
+  "module": "./dist/pbkdf2-passworder.js",
+  "types": "./dist/pbkdf2-passworder.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/pbkdf2-passworder.js",
+      "require": "./dist/pbkdf2-passworder.cjs"
+    }
+  },
+  "scripts": {
+    "build": "vite build",
+    "test": "vitest --run --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vanilla-IceCream/pbkdf2-passworder.git"
+  },
+  "keywords": [
+    "crypto",
+    "pbkdf2",
+    "password"
+  ],
+  "author": "Vanilla IceCream",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vanilla-IceCream/pbkdf2-passworder/issues"
+  },
+  "homepage": "https://github.com/Vanilla-IceCream/pbkdf2-passworder#readme",
+  "devDependencies": {
+    "@vitest/coverage-c8": "^0.31.0",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.5",
+    "vite-plugin-dts": "^2.3.0",
+    "vitest": "^0.31.0"
+  }
+}
