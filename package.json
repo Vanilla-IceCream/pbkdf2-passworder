@@ -1,7 +1,7 @@
 {
   "name": "pbkdf2-passworder",
   "version": "1.0.1",
-  "description": "Password hashing and verification with PBKDF2.",
+  "description": "Password hashing and verification with PBKDF2 using the recommended configuration by NIST.",
   "main": "./dist/pbkdf2-passworder.cjs",
   "module": "./dist/pbkdf2-passworder.js",
   "types": "./dist/pbkdf2-passworder.d.ts",

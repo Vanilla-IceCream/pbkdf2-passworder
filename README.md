@@ -1,6 +1,6 @@
 # pbkdf2-passworder
 
-Password hashing and verification with PBKDF2.
+Password hashing and verification with PBKDF2 using the recommended configuration by NIST.
 
 ## Installation
 
